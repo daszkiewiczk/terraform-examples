@@ -1,6 +1,32 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
+provider "registry.terraform.io/davidji99/herokux" {
+  version = "1.2.0"
+  hashes = [
+    "h1:Ls8HASowYGegWQHUkkeWpYKCJAk91RqnPR/AoP5Nveo=",
+    "zh:04e45941d3d03025de927be0dd4cf9b8ede83ea8c5f95930f5123f0beea6aa2e",
+    "zh:0c2908070c8ba00939ec6e7472572995c51186b97c1bcad35267d36ce2ba3cc5",
+    "zh:0cbcafbd393cac5a33a584b2325ba5d615b6cfd1c51db725096806f348391124",
+    "zh:13e5b4e240bb31a00700f4996da9ca393696f29a2c262ac69cf4db3bed0c6a35",
+    "zh:23cee3049b82b26d97fc31e7e3259b5514ee24584e19998cde9909f9cd4ae074",
+    "zh:55a61d54077b3ad1736257980e4efee9c5ea2bece5bd5ee043e8564aea4ab438",
+    "zh:69a1a96d8601355fe5308e8cbbf6d8b33bb29e5712d34d2daadaf13f2cecd549",
+    "zh:7430c32c03afb759a2ec0b2682c328d01e0490ac0ae2e70540b54e8bed46d2bb",
+    "zh:7d26dd251795e79f27dce45f8ac03d3b5d5891df251ecaeff1a58b22b52e4fd1",
+    "zh:9359d6a7f785e82c2b9abf2231bf527d334239f2992f3ff9e9b7b54ac7926d99",
+    "zh:a6c49d6c95a81a8fead73f9d3e3de9b1419c07a5ddfebceaa959c700f57fc3f3",
+    "zh:a94d503de98abb10c227293e9a5e745a930bf1c4931065f4c0a047c541af9fef",
+    "zh:c24be7a412f3e345dbfed581f7282ac940c4875fa460f8682e36295adb9f9b2e",
+    "zh:d2639705a83b53e566bfc6d954975cd2d2bf33886630c91a8389584660c4da79",
+    "zh:db8bcb552e0ac8e0c38ef15393000c9b1d946ef32344ef454c69d1ee38b4e7f5",
+    "zh:dd9f4e2054175c53ef4ee49d425dcb033311e65ed3b06d5e56435ccbaaf8ed5a",
+    "zh:e9966de161817cffda1b2c8d4de258f243ce09a88230b69ec776950782f2cce7",
+    "zh:ee91aaedef4eefd3a38856ed0cfe3e7f73fda35cc043ad908768733f670e9cdc",
+    "zh:f903a84bdca7707354385ebc0795e3d64b3913f5651928448dacdb663281b4cf",
+  ]
+}
+
 provider "registry.terraform.io/heroku/heroku" {
   version     = "5.1.12"
   constraints = "~> 5.0"
